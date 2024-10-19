@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tetería Andalusí</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Tetería Jardín Najima</title>
+    <link rel="stylesheet" href="styles/pc.css">
+    <link rel="stylesheet" href="styles/phone.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
 </head>
 <body>
     <header>
+        <section id="logo">
+            <img src="images/logos/logo.png" alt="Logo Tetería Jardín Najima">
+        </section>
         <nav>
             <ul>
-                <li><a href="#home">Inicio</a></li>
+                <li><a href="#descripcion">Inicio</a></li>
                 <li><a href="#cartas">Cartas</a></li>
                 <li><a href="#reservas">Reservas</a></li>
                 <li><a href="#galeria">Galería</a></li>
@@ -18,27 +29,22 @@
         </nav>
     </header>
 
-    <section id="home">
+    <section id="descripcion" class="contenedor contenedor_blanco">
         <h1>Tetería Andalusí</h1>
         <p>Disfruta de una experiencia única con nuestros tés, crepes, pastas y cachimbas.</p>
     </section>
 
-    <section id="cartas">
-        <h2>Nuestras Cartas</h2>
+    <section id="cartas" class="contenedor contenedor_rojo">
+        <h2 class="texto_dorado">Nuestras Cartas</h2>
         <div class="cartas-botones">
-            <button onclick="location.href='#te'">Carta de Tés</button>
-            <button onclick="location.href='#crepes'">Carta de Crepes</button>
-            <button onclick="location.href='#cachimbas'">Carta de Cachimbas</button>
+            <a href="documents/carta_tes.pdf" target="_blank"><button>Carta de tés</button></a>
+            <a href="documents/carta_crepes.pdf" target="_blank"><button>Carta de crepes</button></a>
+            <a href="documents/carta_crepes.pdf" target="_blank"><button>Carta de cachimbas</button></a>
         </div>
     </section>
 
-    <section id="reservas">
-        <h2>Reservas</h2>
-        <p>Haz tu reserva con un solo clic:</p>
-        <button onclick="window.open('https://wa.me/1234567890', '_blank')">Reservar por WhatsApp</button>
-    </section>
 <!--
-    <section id="galeria">
+    <section id="galeria" class="contenedor_blanco">
         <h2>Galería</h2>
         <div class="imagenes">
             <img src="images/img1.jpg" alt="Tetería interior">
@@ -47,9 +53,91 @@
         </div>
     </section>
 -->
+
+<div id="galeria" class="desktop_3" unique-script-id="w-w-dm-id">
+    <div class="responsive-container-block bigContainer">
+      <div class="responsive-container-block Container">
+        <div class="swiper-container mySwiper">
+          <div class="btn">
+<!--
+            <div class="swiper-button-nexts">
+              <img class="nextArrow" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Vector.png">
+            </div>
+            <div class="swiper-button-prevs">
+              <img class="prevArrow" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Vector.png">
+            </div>
+-->
+          </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="mainImage" src="images/img1.jpg">
+            </div>
+            <div class="swiper-slide">
+              <img class="mainImage" src="images/img2.jpg">
+            </div>
+            <div class="swiper-slide">
+              <img class="mainImage" src="images/img3.jpg">
+            </div>
+          </div>
+          <div class="swiper-pagination">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <section id="reservas" class="contenedor_blanco">
+        <h2>Reservas</h2>
+        <p>Haz tu reserva con un solo clic:</p>
+        <button onclick="window.open('https://wa.me/1234567890', '_blank')">Reservar por WhatsApp</button>
+    </section>
+
+    <section id="info" class="contenedor_rojo">
+        <div id="contenedor_info">
+            <div>
+                <h3>Horario</h3>
+                <p>Lunes - Jueves: 16:00 - 23:30</p>
+                <p>Viernes - Sábado: 16:00 - 01:30</p>
+            </div>
+            <div>
+                <h3>Teléfono</h3>
+                <p>865 81 71 26</p>
+            </div>
+            <div>
+                <h3>Dirección</h3>
+                <p>C. la Huerta, 110, 03690, San Vicente del Raspeig, Alicante</p>
+            </div>
+            <div>
+                <h3>Redes sociales</h3>
+                <p>Instagram</p>
+                <p>TikTok</p>
+            </div>
+        </div>
+        <div>
+            <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.9269579549095!2d-0.519792523218583!3d38.3969378760769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6237df525a8b93%3A0xf0ab73544f4d29eb!2sTeter%C3%ADa%20Jard%C3%ADn%20Najima!5e0!3m2!1sen!2ses!4v1729350256699!5m2!1sen!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+    </section>
+
     <footer>
-        <p>Tetería Andalusí - Calle Ejemplo, 123 - Granada, España</p>
-        <p>&copy; 2024 Todos los derechos reservados</p>
+        <p>&copy; Tetería Jardín Najima</p>
+        <p>2019 - 2024</p>
     </footer>
+
+    <script>
+        var swiper = new Swiper(`[unique-script-id="w-w-dm-id"] .mySwiper`, {
+            slidesPerView: 1.5,
+            centeredSlides: true,
+            spaceBetween: 5,
+            pagination: {
+                el: `[unique-script-id="w-w-dm-id"] .swiper-pagination`,
+                clickable: true,
+            },
+            loop: false,
+            navigation: {
+                nextEl: `[unique-script-id="w-w-dm-id"] .swiper-button-nexts`,
+                prevEl: `[unique-script-id="w-w-dm-id"] .swiper-button-prevs`,
+            },
+        });
+    </script>
 </body>
 </html>
