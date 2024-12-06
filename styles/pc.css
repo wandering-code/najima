@@ -465,3 +465,15 @@ iframe {
 .enlaces_panel_superior:active {
     color: #f3c676;
 }
+
+.enlaces_redes:visited {
+  color: white;
+}
+
+.enlaces_redes:hover {
+  color: white;
+}
+
+.enlaces_redes:active {
+  color: white;
+}
