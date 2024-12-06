@@ -72,6 +72,8 @@ nav ul li a {
 
 .cartas-botones {
     margin-top: 1em;
+    display: flex;
+    justify-content: center;
 }
 
 .cartas-botones button {
@@ -81,6 +83,7 @@ nav ul li a {
     font-size: 1em;
     cursor: pointer;
     margin: 10px;
+    width: 150px;
 }
 
 #reservas button {
@@ -128,6 +131,7 @@ footer {
 
 .texto_dorado {
     color: #f3c676;
+    text-align: center;
 }
 
 
