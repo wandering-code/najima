@@ -6,7 +6,7 @@
 
 html, body {
     font-family: 'Arial', sans-serif;
-    background-color: #eee2ce;
+    background-color: #690e10;
     color: #333;
     height: 100%;
     margin: 0;
@@ -63,7 +63,7 @@ nav ul li a {
 }
 
 .contenedor_blanco {
-    background-color: #eee2ce;
+    background-color: #eee2ce !important;
     padding: 3em;
     text-align: center;
 }
