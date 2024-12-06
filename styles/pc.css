@@ -89,6 +89,7 @@ nav ul li a {
     cursor: pointer;
     margin: 10px;
     width: 150px;
+    color: #333;
 }
 
 #reservas button {
@@ -439,14 +440,14 @@ iframe {
 
 
 
-a:visited {
-    color: #000000; /* Color para los enlaces visitados */
+.enlaces_panel_superior:visited {
+    color: #f3c676;
 }
 
-a:hover {
-    color: #000000; /* Color cuando el enlace está en hover */
+.enlaces_panel_superior:hover {
+    color: #f3c676;
 }
 
-a:active {
-    color: #000000; /* Color cuando el enlace es clickeado */
+.enlaces_panel_superior:active {
+    color: #f3c676;
 }
