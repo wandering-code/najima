@@ -5,7 +5,7 @@
 }
 
 html, body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Outfit", sans-serif;
     background-color: #690e10;
     color: #333;
     height: 100%;
@@ -16,6 +16,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+button {
+    font-family: "Outfit", sans-serif;
+    border-radius: 10px;
 }
 
 main {
@@ -160,7 +165,6 @@ iframe {
     height: 400px;
     margin-bottom: 20px;
 }
-
 
 
 
@@ -359,7 +363,7 @@ iframe {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #1479f6;
+    background-color: #690e0fc7;
   }
   
   @media (max-width: 1024px) {
@@ -431,3 +435,18 @@ iframe {
       padding-left: 10px;
     }
   }
+
+
+
+
+a:visited {
+    color: #000000; /* Color para los enlaces visitados */
+}
+
+a:hover {
+    color: #000000; /* Color cuando el enlace está en hover */
+}
+
+a:active {
+    color: #000000; /* Color cuando el enlace es clickeado */
+}
