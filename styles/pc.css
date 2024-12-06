@@ -69,7 +69,6 @@ nav ul li a {
 
 .contenedor_blanco {
     background-color: #eee2ce !important;
-    padding: 3em;
     text-align: center;
 }
 
@@ -430,9 +429,7 @@ iframe {
     }
   
     .desktop_3 .responsive-container-block.bigContainer {
-      padding-top: 10px;
       padding-right: 10px;
-      padding-bottom: 10px;
       padding-left: 10px;
     }
   }
