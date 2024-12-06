@@ -20,7 +20,7 @@ body {
 
 button {
     font-family: "Outfit", sans-serif;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 main {
@@ -91,13 +91,23 @@ nav ul li a {
     color: #333;
 }
 
+#reservas {
+    padding-bottom: 50px;
+    margin-top: -30px;
+}
+
 #reservas button {
-    background-color: #8b0000;
+    background-color: #690e0f;
     color: white;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+}
+
+#reservas h2, p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -171,7 +181,14 @@ iframe {
 
 
 
+.titulo_galeria {
+  margin-top: 50px;
+  margin-bottom: -80px;
+}
 
+.titulo_cartas {
+  margin-bottom: 10px;
+}
 
 .desktop_3 .responsive-container-block {
     min-height: 75px;
@@ -329,7 +346,7 @@ iframe {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: white;
+    background-color: #eee2ce;
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
